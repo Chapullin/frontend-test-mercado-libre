@@ -24,6 +24,9 @@ git clone  https://github.com/Chapullin/frontend-test-mercado-libre.git
 # Navegacion a la carpeta
 cd frontend-test-mercado-libre
 
+#Node Version Manager
+nvm use
+
 # Instalando dependencias en node
 npm install
 

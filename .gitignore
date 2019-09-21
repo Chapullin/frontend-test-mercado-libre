@@ -1,8 +1,4 @@
-.vscode
 node_modules
 dist
 *.log
-yarn.lock
 .idea
-Requisitos
-.others
