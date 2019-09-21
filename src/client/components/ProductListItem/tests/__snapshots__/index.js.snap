@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListItem should match snapshot - base 1`] = `
+<a
+  href="/items/MLA93423034"
+  onClick={[Function]}
+>
+  <section
+    className="results-item"
+  >
+    <section
+      className="results-item__thumbnail"
+    >
+      <img
+        alt=""
+        className="img"
+        src="image.jpg"
+      />
+    </section>
+    <section
+      className="results-item__info"
+    >
+      <h1
+        className="results-item__price"
+      >
+        $
+        
+      </h1>
+      <p
+        className="results-item__location"
+      >
+        Rosario
+      </p>
+      <h2
+        className="results-item__title"
+      />
+    </section>
+  </section>
+</a>
+`;

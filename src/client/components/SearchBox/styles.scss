@@ -1,0 +1,46 @@
+@import './../Loading/styles';
+
+@mixin centerer {
+  margin: auto;
+  width: 968px;
+}
+
+.header {
+  position: relative;
+
+  &__container {
+    @include centerer;
+  }
+}
+
+.meli-centered {
+  @include centerer;
+}
+
+.search {
+  display: inline-block;
+  border-radius: 4px;
+  overflow: hidden;
+
+  &__input {
+    border: 0px;
+    width: 680px;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: relative;
+    color: $meli-gray;
+
+    &::placeholder {
+      color: $meli-light-gray;
+      opacity: 1;
+    }
+  }
+
+  &__button {
+    border: 0px;
+    padding: 9px 8px 7px 10px;
+    position: relative;
+    color: $meli-gray;
+    vertical-align: bottom;
+  }
+}

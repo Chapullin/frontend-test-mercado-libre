@@ -1,0 +1,36 @@
+.results-item {
+  display: inline-flex;
+  padding: $spacing-16;
+  position: relative;
+  width: 100%;
+  color: $meli-dark;
+
+  &__thumbnail {
+    padding-right: $spacing-16;
+    width: 180px;
+    height: 180px;
+
+    .img {
+      height: 100%;
+      border: 1px solid $meli-light-gray;
+    }
+  }
+
+  &__price {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: $spacing-32;
+  }
+
+  &__location {
+    color: $meli-gray;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 16px;
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+}

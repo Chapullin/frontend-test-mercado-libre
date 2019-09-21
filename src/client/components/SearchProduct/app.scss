@@ -1,0 +1,75 @@
+.meli-centered {
+  margin: 64px auto;
+  width: 968px;
+}
+
+.body-content {
+  padding: $spacing-48;
+}
+
+.breadcrumb {
+  position: relative;
+  float: left;
+  padding: $spacing-16 0;
+  color: $meli-gray;
+
+  &__anchor {
+    padding: 7px;
+  }
+}
+
+.product-body {
+  display: inline-flex;
+}
+
+.product-image {
+  position: relative;
+
+}
+
+.product-resume {
+  padding: $spacing-32;
+}
+
+.product-resume p small {
+  padding: 0 4px;
+}
+
+.product-title {
+  margin: $spacing-16 0 $spacing-32;
+  font-size: 24px;
+
+}
+
+.product-resume__h2 {
+  font-size: 46px;
+  margin: $spacing-32 0;
+}
+
+.meli-supra:before {
+  content: '.';
+}
+
+.product-resume__button {
+  font-size: 20px;
+  border-radius: 4px;
+  background: $meli-blue;
+  padding: 20px;
+
+  border: 0;
+  color: $meli-white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.description__h3 {
+  padding: $spacing-32;
+  font-size: 28px;
+
+}
+
+.description__p {
+  font-size: $spacing-16;
+  padding-bottom: $spacing-32;
+  color: $meli-dark-gray;
+}

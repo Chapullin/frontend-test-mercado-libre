@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot - base 1`] = `
+<div>
+  <h1>
+    Busca el articulo que quieras
+  </h1>
+</div>
+`;
